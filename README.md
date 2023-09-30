@@ -12,13 +12,16 @@ Nike raised concerns about extended webpage loading times on our Python URL Shor
 
 The JMeter load test revealed a server latency of 40 milliseconds for user requests to the application on Elastic Beanstalk, indicating optimization was required.
 
-<img width="299" alt="Screen Shot 2023-09-30 at 5 03 35 AM" src="https://github.com/belindadunu/Blitz1/assets/139175163/497160ea-1349-4daf-9094-6017195ea9e7">
+<img width="299" alt="Screen Shot 2023-09-30 at 5 03 35 AM" src="https://github.com/belindadunu/Blitz1/assets/139175163/f48efd55-1c2e-4f30-b3f2-5edf63b42e7f">
 
 ### What Did You Do to Resolve the Issue?
 
 To resolve the high latency problem, an Amazon CloudFront CDN was integrated. By leveraging Amazon’s global edge servers, static content was efficiently delivered to users. This reduced the average from 40ms down to just 9ms - a 4x improvement. The CDN stored frequently accessed URLs and webpage HTML files, further enhancing the user experience.
 
 In scenarios where the CDN couldn't fulfill requests, they were routed to the web server. However, the overall average latency still decreased substantially due to CDN implementation. For optimal results, all static content should be uploaded to the CDN, bypassing the web server and backend infrastructure for faster response times.
+
+<img width="286" alt="Screen Shot 2023-09-29 at 5 16 50 PM" src="https://github.com/belindadunu/Blitz1/assets/139175163/fe4863d0-7296-4296-961d-4b5f8bf9124e">
+
 
 ### What Was the Purpose?
 
