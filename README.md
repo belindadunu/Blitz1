@@ -2,7 +2,7 @@
 
 ## Overview
 
-Nike raised concerns about extended webpage loading times on our Python URL Shortening application deployed on AWS Elastic Beanstalk. Customers reported high latency issues. To assess the problem, a load test was conducted using (Apache JMeter)[https://jmeter.apache.org/] to simulate 1000 HTTP GET requests to the application deployed on AWS Elastic Beanstalk. This highlighted the need to optimize the application's performance.
+Nike raised concerns about extended webpage loading times on our Python URL Shortening application deployed on AWS Elastic Beanstalk. Customers reported high latency issues. To assess the problem, a load test was conducted using [Apache JMeter](https://jmeter.apache.org/) to simulate 1000 HTTP GET requests to the application deployed on AWS Elastic Beanstalk. This highlighted the need to optimize the application's performance.
 
 <img width="448" alt="Screen Shot 2023-09-29 at 5 16 40 PM" src="https://github.com/belindadunu/Blitz1/assets/139175163/f3bff27e-dd06-4f3c-be56-4e5d52a7d30f">
 
