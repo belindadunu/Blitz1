@@ -22,6 +22,6 @@ Blitz 1 showcased the potential of a content delivery network in reducing web ap
 
 ## Diagram
 
-### Before Blitz 1:
+### Before and after Blitz 1:
 
 ![Blitz1 drawio](https://github.com/belindadunu/Blitz1/assets/139175163/5603abc8-325d-4044-949a-24dc4145bdd7)
