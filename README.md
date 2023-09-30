@@ -12,7 +12,7 @@ To assess the issue, a load test was conducted, simulating 1000 GET requests to 
 
 ### What Did You Do to Resolve the Issue?
 
-To resolve the latency problem, an AWS CloudFront CDN was integrated. By leveraging Amazon’s global edge servers, static content was efficiently delivered to users, reducing the latency to 9ms. The CDN stored frequently accessed URLs and webpage HTML files, enhancing the user experience significantly.
+To resolve the latency problem, an Amazon CloudFront CDN was integrated. By leveraging Amazon’s global edge servers, static content was efficiently delivered to users, reducing the latency to 9ms. The CDN stored frequently accessed URLs and webpage HTML files, enhancing the user experience significantly.
 
 In scenarios where the CDN couldn't fulfill requests, they were routed to the web server. However, the overall average latency decreased due to CDN implementation. For optimal results, all static content should be uploaded to the CDN, bypassing the web server and backend infrastructure for faster response times.
 
