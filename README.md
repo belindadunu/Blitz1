@@ -25,11 +25,11 @@ In scenarios where the CDN couldn't fulfill requests, they were routed to the we
 
 ### What Was the Purpose?
 
-Blitz 1 demonstrated the effectiveness of a content delivery network in reducing web application latency. Storing and serving content from edge locations closer to users significantly cut request fulfuillment time. This ensured swift access to webpages, improving overall user experience. 
+Blitz 1 demonstrated the effectiveness of a content delivery network in reducing web application latency. Storing and serving content from edge locations closer to users significantly cut request fulfillment time. This ensured fast access to webpages, improving overall user experience. 
 
 ### Recommendations
 
-We could also use ping tests and browser dev tools to check the improvements. Dev tools show how long each file takes to load. Ping gives you the latency between point A and B. Using these along with load tests would help keep monitoring optimizations and catch any new issues. We'd get alerts if new slowdowns popped up. Then we could jump back in to speed things up again.
+We could also use ping tests and browser dev tools to check the improvements. Dev tools show how long each file takes to load. Ping gives you the latency between points A and B. Using these along with load tests would help keep monitoring optimizations and catch any new issues. We'd get alerts if new slowdowns popped up. Then we could jump back in to speed things up again.
 
 ## Diagram
 
